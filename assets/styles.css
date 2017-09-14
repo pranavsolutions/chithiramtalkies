@@ -150,6 +150,12 @@ body{
 .alt-bg {
     background-color: #f1f1f1;
 }
+.no-bg {
+    background-color: #fff;
+}
+.service-box{
+    padding: 30px 15px;
+}
 
 main {
     background-color: #FFF;
@@ -158,6 +164,14 @@ main {
 header p {
     font-size: 22px;
     line-height: 150%;
+    padding-bottom: 40px;
+}
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.subsection-padding {
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
@@ -189,7 +203,35 @@ header p {
     -o-transition: font 200ms ease-out,margin 200ms ease-out;
     transition: font 200ms ease-out,margin 200ms ease-out;
 }
+.contact-bg{
+  background: url('../assets/images/contact-background01.jpg');
+}
 
+.img-bg-soft, .img-bg-softer {
+    background-position: center;
+    position: relative;
+}
+
+.img-bg, .img-bg-center {
+    background-position: center!important;
+    background-size: cover;
+}
+
+.tint-bg, .btn {
+    background-color: #FFF;
+}
+
+.tint-bg {
+    background-color: #fa6c65;
+    color: #FFF;
+    padding: 2px 8px;
+    margin-top: -2px;
+}
+
+
+.tint-bg, .tint-bg h1, .tint-bg h2, .tint-bg h3, .tint-bg h4, .tint-bg p {
+    color: #FFF;
+}
 ul {
    list-style: none;
    margin: 0;
@@ -241,4 +283,30 @@ img {
 }
 .pd-no{
       padding: 0px;
+}
+
+.btn-large {
+    padding: 14px 26px 16px;
+    font-size: 15px;
+}
+.btn {
+    color: #bd081c!important;
+    padding: 11px 20px 13px;
+    margin: 15px 0;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .02em;
+    text-shadow: none;
+    -webkit-font-smoothing: antialiased;
+    border: 0;
+    text-transform: uppercase;
+    -webkit-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
 }
